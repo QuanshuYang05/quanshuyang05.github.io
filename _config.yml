@@ -22,12 +22,11 @@ repository               : "QuanshuYang05/QuanshuYang05.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "杨荃舒"
   pronouns         : "she/her"
   bio              : "信息安全专业本科生，专注于 AI 驱动的加密流量分析与异常检测，熟练使用 PyTorch 深度学习框架"
-  location         : "中国 天津"
-  employer         : "天津中德应用技术大学"
+  location         : "中国"
   uri              : # URL
   email            : "kakaoy@163.com"
 
