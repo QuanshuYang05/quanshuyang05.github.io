@@ -9,56 +9,72 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## 教育背景
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **天津中德应用技术大学** — 信息安全（本科），2023.09 - 至今
+  - GPA 4.2/5.0，专业排名 1/59
+  - 主修课程：数据结构、Web 前端开发、操作系统、网络攻防基础、数据加密与 PKI 应用、计算机网络
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## 项目经历
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+### 基于终身学习的加密流量异常检测系统（系统开发工程师）
+*2025.05 - 至今*
+- 负责任务指纹生成、元知识库、EWC 抗遗忘等核心模块集成
+- 设计开发"AI 流量识别"可视化软件，集成实时流量监控
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+### 中国科学院过程工程研究所（网络安全工程师）
+*2025.05 - 2025.09*
+- 系统掌握 OWASP Top10 漏洞原理，DVWA/WebGoat 靶场攻防实操
+- 基于 CodeQL 开展高级漏洞检测，研究逻辑漏洞与绕过技术
+- 调研大模型在漏洞检测中的隐私、可解释性与实时性瓶颈
+
+### 基于 CNN 的智能防控系统 — 天津市大创项目（系统集成工程师）
+*2025.01 - 2025.04*
+- 集成人体异常动作识别、陌生人脸检测、火灾探测等模块
+- 编写系统开发文档，明确架构与接口
+
+### 国家商用密码开发（算法开发工程师）
+*2024.04 - 2025.02*
+- 研发高安全国密 SM 系列算法核心模块（SM2/SM3/SM4）
+- 构建合规化国密电子签章平台
+
+### 天津光电安辰信息技术股份有限公司（嵌入式软件工程师）
+*2026.01 - 2026.03*
+- 编写密码卡老化测试脚本，实现自动化稳定性验证
+- 独立部署企业级漏洞扫描平台，输出结构化安全报告
+
+### OpenHarmony 开源鸿蒙社团（副社长）
+*2024.07 - 2025.07*
+- 运营开源社区，吸引超 100 名成员加入
+- 组织技术交流活动，推动鸿蒙技术在校园落地
+- 开源地址：[gitee.com/TSGU-OSC](https://gitee.com/TSGU-OSC)
+
+## 科研成果
+
+{% include base_path %}
+
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+**软件著作权（4项）：**
+- 主持编写：《加密流量异常检测软件》、《SM4加解密示教软件》
+- 参与编写：《HMAC_SM3软件》、《门禁管理系统》
+
+## 荣誉与证书
+
+- **国家奖学金**（两次）
+- **校级一等优秀学生奖学金**（三次）
+- **中国国际大学生创新大赛(2025)** 市赛银奖 2 项、铜奖 2 项
+- **技能证书**：NISP 二级、CET-4、CET-6、华为校园开发者
+- **优秀学生团干部**
+
+## 技能
+
+| 类别 | 具体技能 |
+|------|---------|
+| 深度学习 | PyTorch、1D-CNN、时序特征建模、终身学习（EWC） |
+| 编程语言 | Python（主力）、C/C++ |
+| 可视化 | PyQt6、Matplotlib |
+| 网络安全 | 加密流量分析、Scapy 抓包、CodeQL、OWASP Top10 |
+| 工具环境 | Linux、Git、GmSSL/OpenSSL |
